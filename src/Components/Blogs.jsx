@@ -49,7 +49,7 @@ const Blogs = () => {
                 <SwiperSlide key={index}>
                   <div className="w-[280px] sm:w-[300px]  shadow-xs h-full lg:gap-1 mx-auto bg-[#72909E]  rounded-[40px] flex flex-col items-center p-6 mb-4">
                     <div className="">
-                     <Link to="/blogepg">
+                     <Link to="/blogespag">
                       <img
                         src={item.img}
                         alt={item.title}
@@ -57,7 +57,7 @@ const Blogs = () => {
                       />
                       </Link>
                     </div>
-                    <Link to="/blogepg">
+                    <Link to="/blogespag">
                     <h2 className=" px-4 mb-2 text-[#FFF] cursor-pointer">{item.text}</h2> 
                     </Link>                  
                   </div>
