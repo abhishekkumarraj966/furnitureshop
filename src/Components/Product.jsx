@@ -32,7 +32,7 @@ const Product = () => {
                 slidesPerView: 2,
                 spaceBetween: 15,
               },
-              850: {
+              960: {
                 slidesPerView: 3,
                 spaceBetween: 15,
               },
@@ -48,7 +48,7 @@ const Product = () => {
             <div className="flex  px-2 mx-2 sm:mx-[2px]">
               {ProductMock.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-[280px] sm:w-[350px]  shadow-xs h-[550px] lg:gap-1 mx-auto bg-[#CBE6F1]  rounded-[40px] flex flex-col items-center p-6 mb-4">
+                  <div className="w-[280px] sm:w-[300px]  shadow-xs h-[550px] lg:gap-1 mx-auto bg-[#CBE6F1]  rounded-[40px] flex flex-col items-center p-6 mb-4">
                     <div className="">
                       <Link to="/productpage">
                         <img

@@ -57,13 +57,13 @@ const Services = () => {
             <div className="flex  px-2 mx-2 sm:mx-[20px]">
               {servicesMock.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-[280px] sm:w-[350px] lg:w-[300px] mx-auto shadow-xs h-[530px] lg:gap-1 bg-[#72909E] shadow-xs rounded-[40px] flex flex-col items-center p-6 mb-4" id="services">
+                  <div className="w-[280px] sm:w-[300px] lg:w-[300px] mx-auto shadow-xs h-[530px] lg:gap-1 bg-[#72909E] shadow-xs rounded-[40px] flex flex-col items-center p-6 mb-4" id="services">
                     <div className="">
                     <Link to="/blogepg">
                       <img
                         src={item.img}
                         alt={item.title}
-                        className=" h-[180px] w-[280px] rounded-tr-[40px] rounded-tl-[40px] object-cover"
+                        className=" h-[180px] w-[100%] rounded-tr-[40px] rounded-tl-[40px] object-cover"
                       />
                       </Link>
                       <h2 className="  px-1 tracking-[0.96px] sm:text-[20px] text-[16px]  text-center  font-bold text-white my-4">

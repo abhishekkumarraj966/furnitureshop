@@ -25,11 +25,9 @@ const Reviews = () => {
             slidesPerView: 2,
             spaceBetween: 5,
           },
-          750: {
-            slidesPerView: 2,
-            spaceBetween: 15,
-          },
-          770: {
+         
+          
+          960: {
             slidesPerView: 3,
             spaceBetween: 15,
           },
