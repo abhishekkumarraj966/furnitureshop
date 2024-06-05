@@ -1,0 +1,19 @@
+.backgroundimage{
+  background-image: url(../src/Components/assites/img_rectangle_297.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ height: 700px;
+}
+
+@media screen and (max-width: 768px) {
+  .backgroundimage {
+    height: 600px; /* Adjusted height for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .backgroundimage {
+    height: 350px; /* Further adjusted height for even smaller screens */
+  }
+}
