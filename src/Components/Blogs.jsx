@@ -47,7 +47,7 @@ const Blogs = () => {
             <div className="flex  px-2 mx-2 sm:mx-[20px]">
               {BlogexMock.map((item, index) => (
                 <SwiperSlide key={index}>
-                  <div className="w-[280px] sm:w-[340px]  shadow-xs h-full lg:gap-1 mx-auto bg-[#72909E]  rounded-[40px] flex flex-col items-center p-6 mb-4">
+                  <div className="w-[280px] sm:w-[300px]  shadow-xs h-full lg:gap-1 mx-auto bg-[#72909E]  rounded-[40px] flex flex-col items-center p-6 mb-4">
                     <div className="">
                      <Link to="/blogepg">
                       <img
