@@ -27,10 +27,10 @@ const Hero = () => {
           <img
             src={heroImg2}
             alt="circleimage"
-            className="sm:h-[243px] sm:w-[243px] h-[180px] w-[180px] rounded-full mx-[50%] sm:mx-[80%] lg:mx-0 mt-[15%]"
+            className="sm:h-[243px] sm:w-[243px] h-[180px] w-[180px] rounded-full mx-[50%] sm:mx-[80%] lg:mx-0 mt-[15%] md:mx-[30%] md:mt-[30%] "
           />
         </div>
-        <div className="col-span-2 sm:col-span-2 lg:col-span-2 lg:mt-[10%] mb-[5%]">
+        <div className="col-span-2 sm:col-span-2 lg:col-span-2 md:mt-[8%] lg:mt-[10%] mb-[5%] md:ml-[18%]">
           <h1 className="tracking-[1.44px] font-bold text-[#326C77]  sm:text-[40px]  text-[30px]  mt-[-15px] lg:mt-[0px] lg:text-start text-center">
             Emma Watson
           </h1>
@@ -146,7 +146,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <div className="items-center  lg:mt-[-8%] pb-[20px]  mx-[10%] hidden md:block  pt-4 px-8 rounded-full">
+        <div className="items-center md:mt-[-5%] lg:mt-[-8%] pb-[20px]  mx-[10%] hidden md:block  pt-4 px-8 rounded-full">
           <ul className="flex gap-[10px] lg:gap-[15px] px-4">
             <a href="">
               <img
