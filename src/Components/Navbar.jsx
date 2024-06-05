@@ -46,7 +46,7 @@ const Navbar = () => {
                 {/* <img src="/" alt="comLogo" /> */}
               </a>
             </div>
-            <div className="lg:flex lg:flex-1 items-center justify-end font-normal hidden">
+            <div className="md:flex md:flex-1 items-center justify-end font-normal hidden">
               <div className="flex-10">
                 <ul className="flex gap-8 mr-16 text-[18px]  list-none">
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
