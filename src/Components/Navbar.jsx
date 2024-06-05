@@ -39,7 +39,7 @@ const Navbar = () => {
     <div className="bg-[#9AB3BC] text-white sticky top-0 z-50">
       <AppLayout>
         <nav>
-          <div className="h-16 flex justify-between z-20 text-white lg:py-5 px-[20px] py-4 ">
+          <div className="h-16 md:h-full flex justify-between z-20 text-white lg:py-5 px-[20px] py-4 ">
             <div className="flex items-center flex-1">
               <a href="/">
                 <span className="text-3xl font-bold">Furinitur</span>
