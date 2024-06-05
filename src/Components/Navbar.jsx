@@ -69,7 +69,7 @@ const Navbar = () => {
             </div>
             <div>{click && content}</div>
             <button
-              className="block md:hidden translate text-white"
+              className="block sm:hidden translate text-white"
               onClick={handleClick}
             >
               {click ? <FaTimes /> : <CiMenuBurger />}
