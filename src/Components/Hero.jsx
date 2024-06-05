@@ -222,7 +222,7 @@ const Hero = () => {
               <img
                 src={swi}
                 alt="Lodinge.."
-                className="h-[40px] w-[500px]  cursor-pointer"
+                className="h-[40px] w-[50px]  cursor-pointer"
               />
             </a>
             <a href="">
